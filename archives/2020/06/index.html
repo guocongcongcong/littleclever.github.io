@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-CN">
+<html class="theme-next gemini use-motion" lang="zh-CN">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -79,12 +79,14 @@
 
 
 
+<meta name="description" content="一个在学写代码的小学生">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
+<meta property="og:title" content="聪聪的个人博客">
 <meta property="og:url" content="https://github.com/guocongcongcong/littleclever.github.io/archives/2020/06/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="聪聪的个人博客">
+<meta property="og:description" content="一个在学写代码的小学生">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="聪聪">
 <meta name="twitter:card" content="summary">
 
 
@@ -93,9 +95,9 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/littleclever.github.io/',
-    scheme: 'Muse',
+    scheme: 'Gemini',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"right","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -121,11 +123,20 @@
 
 
 
-  <title>Archive | Hexo</title>
+  <title>Archive | 聪聪的个人博客</title>
   
 
 
 
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-172942477-1', 'auto');
+  ga('send', 'pageview');
+</script>
 
 
 
@@ -140,7 +151,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-right page-archive">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -151,7 +162,7 @@
     <div class="custom-logo-site-title">
       <a href="/littleclever.github.io/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">聪聪的个人博客</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -186,12 +197,72 @@
         </li>
       
         
+        <li class="menu-item menu-item-about">
+          <a href="/littleclever.github.io/about/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/littleclever.github.io/tags/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/littleclever.github.io/categories/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/littleclever.github.io/archives/%20" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-schedule">
+          <a href="/littleclever.github.io/schedule/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+            
+            Schedule
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/littleclever.github.io/sitemap.xml%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            Sitemap
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/littleclever.github.io/404/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            Commonweal 404
           </a>
         </li>
       
@@ -314,8 +385,12 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">John Doe</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <img class="site-author-image" itemprop="image"
+                src="/littleclever.github.io/images/avatar.jpeg"
+                alt="聪聪" />
+            
+              <p class="site-author-name" itemprop="name">聪聪</p>
+              <p class="site-description motion-element" itemprop="description">一个在学写代码的小学生</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -339,6 +414,22 @@
 
           
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/guocongcongcong" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="guov5xiaowei@gmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+            </div>
           
 
           
@@ -370,7 +461,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">聪聪</span>
 
   
 </div>
@@ -384,7 +475,7 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
 
 
 
@@ -484,6 +575,13 @@
   
   
 
+
+  <script type="text/javascript" src="/littleclever.github.io/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/littleclever.github.io/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
   
 
   
@@ -495,6 +593,14 @@
 
   
 
+
+  
+
+    
+      <script id="dsq-count-scr" src="https://congcong.disqus.com/count.js" async></script>
+    
+
+    
 
   
 
@@ -510,10 +616,6 @@
   
 
 
-
-
-
-  
 
 
 
